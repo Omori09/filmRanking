@@ -1,0 +1,38 @@
+h1.center {
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+  color: coral;
+}
+
+.intro {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 0.5em;
+  background: coral;
+  width: 470px;
+  height: 100px;
+  color: white;
+  border-radius: 35px;
+}
+
+ul {
+  text-align: left;
+}
+
+img {
+  position: relative;
+  right: 200px;
+}
+
+h3.recommend {
+  font-weight: bold;
+  color: blue;
+}

@@ -1,0 +1,97 @@
+h1 {
+  color: gold;
+  text-align: center;
+}
+
+h2 {
+  color: coral;
+  text-align: center;
+}
+
+.arrow {
+  text-align: center;
+}
+
+
+.quote {
+  clear: left;
+  text-align: center;
+}
+
+
+.film {
+  color: coral;
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+
+.film::after {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 10px;
+  background: gold;
+  transform: scale(0, 1);
+  transform-origin: right top;
+  transition: transform .3s;
+}
+
+.film:hover::after {
+  transform-origin: left top;
+  transform: scale(1, 1);
+}
+
+figure {
+  display: inline-block;
+  padding: 1em;
+  border: double 5px gainsboro;
+}
+
+figcaption {
+  color: gray;
+}
+
+.outline {
+  margin-top: 0;
+  padding: 1em 1.5em;
+  background: seashell;
+  line-height: 2.5em;
+}
+
+h4 {
+  padding: 0.5em 0.5em 0.4em;
+  text-align: center;
+  font-size: 1.3em;
+  background: coral;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  margin-bottom: 0;
+}
+
+
+dt {
+  font-size: 1.2em;
+}
+
+div.outline {
+  aspect-ratio: 16/9;
+}
+
+.left {
+  text-align: left;
+  float: left;
+}
+
+.right {
+  text-align: right;
+  float: right;
+}
+
+.center {
+  text-align: center;
+}

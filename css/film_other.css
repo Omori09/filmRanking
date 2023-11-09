@@ -1,0 +1,60 @@
+h1 {
+  text-align: center;
+  font-size: 1.7em;
+}
+
+span {
+  font-size: larger;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+h2 {
+  text-align: center;
+}
+
+div {
+  padding: 0.5em 0.5em 0.4em;
+  text-align: center;
+  background: cornflowerblue;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 0.05em;
+  margin-bottom: 0;
+}
+
+
+caption {
+  color: indigo;
+  font-family: Hiragino Maru Gothic ProN W4;
+}
+
+.left {
+  display: inline-block;
+  display: table-cell;
+  padding: 1em;
+  border: double 5px gainsboro;
+  width: 50%;
+}
+
+.right {
+  display: inline-block;
+  display: table-cell;
+  padding: 1em;
+  border: double 5px gainsboro;
+
+}
+
+.title {
+  font-size: large;
+  font-weight: bold;
+  color: cornflowerblue
+}
+
+figcaption {
+  font-size: small;
+}
+
+.center {
+  text-align: center;
+}
